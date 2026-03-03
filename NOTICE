@@ -1,0 +1,52 @@
+XtruSign Pro
+Copyright (c) 2026 XtruPrint.
+All rights reserved.
+
+This product includes third-party software components.
+The following notices and licenses apply to those components.
+
+------------------------------------------------------------
+1. Qt Framework
+------------------------------------------------------------
+
+This product uses Qt, a cross-platform application framework
+developed by The Qt Company Ltd.
+
+Qt is licensed under the GNU Lesser General Public License (LGPL) v3,
+or under a commercial license agreement with The Qt Company.
+
+If Qt is used under LGPL:
+
+- This application dynamically links against Qt libraries.
+- Users may replace the Qt libraries with compatible versions.
+- The source code of Qt is available at:
+  https://www.qt.io/
+
+A copy of the LGPL v3 license text is provided in the
+THIRD_PARTY_LICENSES directory.
+
+------------------------------------------------------------
+2. Open CASCADE Technology (OCCT)
+------------------------------------------------------------
+
+This product uses Open CASCADE Technology (OCCT),
+an open-source CAD/CAM kernel.
+
+Copyright (c) 1999-2026 Open CASCADE SAS
+
+OCCT is licensed under the GNU Lesser General Public License (LGPL) v2.1
+with a special exception.
+
+The source code of Open CASCADE Technology is available at:
+  https://www.opencascade.com/
+
+Any modifications to OCCT, if applicable, are made available
+in accordance with its license terms.
+
+A copy of the LGPL v2.1 license text and OCCT exception
+is provided in the THIRD_PARTY_LICENSES directory.
+
+------------------------------------------------------------
+
+For questions regarding licensing, contact:
+legal@xtruprint.com
