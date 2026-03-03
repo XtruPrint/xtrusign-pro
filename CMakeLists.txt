@@ -13,3 +13,11 @@ option(BUILD_DESKTOP "Build desktop app" ON)
 if(BUILD_DESKTOP)
     add_subdirectory(apps/desktop)
 endif()
+
+// for testing // 
+option(BUILD_TESTS "Build unit tests" ON)
+
+if(BUILD_TESTS)
+    enable_testing()
+    add_subdirectory(tests)
+endif()
