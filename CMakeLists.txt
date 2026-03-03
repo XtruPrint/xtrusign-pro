@@ -8,3 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_subdirectory(engine)
 add_subdirectory(application)
 add_subdirectory(apps/desktop)
+
+option(BUILD_DESKTOP "Build desktop app" ON)
+if(BUILD_DESKTOP)
+    add_subdirectory(apps/desktop)
+endif()
