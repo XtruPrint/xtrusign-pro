@@ -4,19 +4,18 @@ project(XtruSignPro VERSION 0.1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Add subprojects
+# Add core modules
 add_subdirectory(engine)
 add_subdirectory(application)
-add_subdirectory(apps/desktop)
 
+# Desktop application
 option(BUILD_DESKTOP "Build desktop app" ON)
 if(BUILD_DESKTOP)
     add_subdirectory(apps/desktop)
 endif()
 
-# For testing 
+# Build unit tests
 option(BUILD_TESTS "Build unit tests" ON)
-
 if(BUILD_TESTS)
     enable_testing()
     add_subdirectory(tests)
