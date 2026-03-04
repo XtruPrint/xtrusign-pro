@@ -14,7 +14,7 @@ if(BUILD_DESKTOP)
     add_subdirectory(apps/desktop)
 endif()
 
-// for testing // 
+# For testing 
 option(BUILD_TESTS "Build unit tests" ON)
 
 if(BUILD_TESTS)
