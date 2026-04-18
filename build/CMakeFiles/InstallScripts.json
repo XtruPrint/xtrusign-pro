@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/home/xtrusign-pro/build/cmake_install.cmake",
+		"/Users/home/xtrusign-pro/build/engine/cmake_install.cmake",
+		"/Users/home/xtrusign-pro/build/application/cmake_install.cmake",
+		"/Users/home/xtrusign-pro/build/apps/desktop/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

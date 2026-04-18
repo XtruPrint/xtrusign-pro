@@ -1,0 +1,2 @@
+/usr/bin/ar qc libxtrusign-application.a "CMakeFiles/xtrusign-application.dir/src/DocumentManager.cpp.o"
+/usr/bin/ranlib libxtrusign-application.a

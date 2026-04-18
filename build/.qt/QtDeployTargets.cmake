@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_xtrusign-engine_FILE /Users/home/xtrusign-pro/build/engine/libxtrusign-engine.a)
+set(__QT_DEPLOY_TARGET_xtrusign-engine_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_xtrusign-application_FILE /Users/home/xtrusign-pro/build/application/libxtrusign-application.a)
+set(__QT_DEPLOY_TARGET_xtrusign-application_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_xtrusign-desktop_FILE /Users/home/xtrusign-pro/build/apps/desktop/xtrusign-desktop)
+set(__QT_DEPLOY_TARGET_xtrusign-desktop_TYPE EXECUTABLE)

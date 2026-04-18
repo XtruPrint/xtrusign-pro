@@ -1,0 +1,15 @@
+/Users/home/xtrusign-pro/build/CMakeFiles/test.dir
+/Users/home/xtrusign-pro/build/CMakeFiles/edit_cache.dir
+/Users/home/xtrusign-pro/build/CMakeFiles/rebuild_cache.dir
+/Users/home/xtrusign-pro/build/engine/CMakeFiles/xtrusign-engine.dir
+/Users/home/xtrusign-pro/build/engine/CMakeFiles/test.dir
+/Users/home/xtrusign-pro/build/engine/CMakeFiles/edit_cache.dir
+/Users/home/xtrusign-pro/build/engine/CMakeFiles/rebuild_cache.dir
+/Users/home/xtrusign-pro/build/application/CMakeFiles/xtrusign-application.dir
+/Users/home/xtrusign-pro/build/application/CMakeFiles/test.dir
+/Users/home/xtrusign-pro/build/application/CMakeFiles/edit_cache.dir
+/Users/home/xtrusign-pro/build/application/CMakeFiles/rebuild_cache.dir
+/Users/home/xtrusign-pro/build/apps/desktop/CMakeFiles/xtrusign-desktop.dir
+/Users/home/xtrusign-pro/build/apps/desktop/CMakeFiles/test.dir
+/Users/home/xtrusign-pro/build/apps/desktop/CMakeFiles/edit_cache.dir
+/Users/home/xtrusign-pro/build/apps/desktop/CMakeFiles/rebuild_cache.dir

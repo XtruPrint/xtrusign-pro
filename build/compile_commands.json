@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/home/xtrusign-pro/build/engine",
+  "command": "/usr/bin/clang++  -I/Users/home/xtrusign-pro/engine/src -isystem /opt/homebrew/include/opencascade -g -std=gnu++20 -arch arm64 -o CMakeFiles/xtrusign-engine.dir/src/Engine.cpp.o -c /Users/home/xtrusign-pro/engine/src/Engine.cpp",
+  "file": "/Users/home/xtrusign-pro/engine/src/Engine.cpp",
+  "output": "engine/CMakeFiles/xtrusign-engine.dir/src/Engine.cpp.o"
+},
+{
+  "directory": "/Users/home/xtrusign-pro/build/engine",
+  "command": "/usr/bin/clang++  -I/Users/home/xtrusign-pro/engine/src -isystem /opt/homebrew/include/opencascade -g -std=gnu++20 -arch arm64 -o CMakeFiles/xtrusign-engine.dir/src/GeometryEngine.cpp.o -c /Users/home/xtrusign-pro/engine/src/GeometryEngine.cpp",
+  "file": "/Users/home/xtrusign-pro/engine/src/GeometryEngine.cpp",
+  "output": "engine/CMakeFiles/xtrusign-engine.dir/src/GeometryEngine.cpp.o"
+},
+{
+  "directory": "/Users/home/xtrusign-pro/build/application",
+  "command": "/usr/bin/clang++  -I/Users/home/xtrusign-pro/application/src -I/Users/home/xtrusign-pro/engine/src -isystem /opt/homebrew/include/opencascade -g -std=gnu++20 -arch arm64 -o CMakeFiles/xtrusign-application.dir/src/DocumentManager.cpp.o -c /Users/home/xtrusign-pro/application/src/DocumentManager.cpp",
+  "file": "/Users/home/xtrusign-pro/application/src/DocumentManager.cpp",
+  "output": "application/CMakeFiles/xtrusign-application.dir/src/DocumentManager.cpp.o"
+},
+{
+  "directory": "/Users/home/xtrusign-pro/build/apps/desktop",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/home/xtrusign-pro/engine/src -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/include/opencascade -g -std=gnu++20 -arch arm64 -o CMakeFiles/xtrusign-desktop.dir/src/main.cpp.o -c /Users/home/xtrusign-pro/apps/desktop/src/main.cpp",
+  "file": "/Users/home/xtrusign-pro/apps/desktop/src/main.cpp",
+  "output": "apps/desktop/CMakeFiles/xtrusign-desktop.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/home/xtrusign-pro/build/apps/desktop",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/home/xtrusign-pro/engine/src -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/include/opencascade -g -std=gnu++20 -arch arm64 -o CMakeFiles/xtrusign-desktop.dir/src/MainWindow.cpp.o -c /Users/home/xtrusign-pro/apps/desktop/src/MainWindow.cpp",
+  "file": "/Users/home/xtrusign-pro/apps/desktop/src/MainWindow.cpp",
+  "output": "apps/desktop/CMakeFiles/xtrusign-desktop.dir/src/MainWindow.cpp.o"
+},
+{
+  "directory": "/Users/home/xtrusign-pro/build/apps/desktop",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/home/xtrusign-pro/engine/src -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/include/opencascade -g -std=gnu++20 -arch arm64 -o CMakeFiles/xtrusign-desktop.dir/src/OcctViewer.cpp.o -c /Users/home/xtrusign-pro/apps/desktop/src/OcctViewer.cpp",
+  "file": "/Users/home/xtrusign-pro/apps/desktop/src/OcctViewer.cpp",
+  "output": "apps/desktop/CMakeFiles/xtrusign-desktop.dir/src/OcctViewer.cpp.o"
+}
+]

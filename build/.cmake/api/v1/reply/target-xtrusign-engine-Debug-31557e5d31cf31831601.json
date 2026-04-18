@@ -1,0 +1,1227 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "engine/libxtrusign-engine.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"engine/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "TKernel::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKMath::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKG2d::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKG3d::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKGeomBase::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBRep::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKGeomAlgo::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTopAlgo::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKPrim::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBO::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKShHealing::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBool::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKHLR::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKFillet::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKOffset::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKFeat::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKMesh::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXMesh::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKService::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKV3d::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKOpenGl::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKMeshVS::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKCDF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKLCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBinL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXmlL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBin::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXml::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKStdL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKStd::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTObj::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBinTObj::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXmlTObj::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKVCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDE::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSBase::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDESTEP::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEIGES::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDESTL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEVRML::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKRWMesh::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDECascade::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBinXCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXmlXCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEOBJ::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEGLTF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEPLY::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKExpress::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDraw::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTopTest::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKOpenGlTest::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKViewerTest::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAW::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXDEDRAW::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTObjDRAW::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKQADraw::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWDE::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWGLTF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWIGES::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWOBJ::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWPLY::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWSTEP::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWSTL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWVRML::@4088515cb4035b412499"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++20 -arch arm64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/home/xtrusign-pro/engine/src"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include/opencascade"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "xtrusign-engine::@4088515cb4035b412499",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "TKernel::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKMath::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKG2d::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKG3d::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKGeomBase::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBRep::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKGeomAlgo::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTopAlgo::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKPrim::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBO::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKShHealing::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBool::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKHLR::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKFillet::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKOffset::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKFeat::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKMesh::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXMesh::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKService::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKV3d::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKOpenGl::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKMeshVS::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKCDF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKLCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBinL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXmlL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBin::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXml::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKStdL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKStd::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTObj::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBinTObj::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXmlTObj::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKVCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDE::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSBase::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDESTEP::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEIGES::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDESTL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEVRML::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKRWMesh::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDECascade::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBinXCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXmlXCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEOBJ::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEGLTF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEPLY::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKExpress::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDraw::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTopTest::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKOpenGlTest::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKViewerTest::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAW::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXDEDRAW::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTObjDRAW::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKQADraw::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWDE::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWGLTF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWIGES::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWOBJ::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWPLY::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWSTEP::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWSTL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWVRML::@4088515cb4035b412499"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "TKernel::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKMath::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKG2d::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKG3d::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKGeomBase::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBRep::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKGeomAlgo::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTopAlgo::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKPrim::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBO::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKShHealing::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBool::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKHLR::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKFillet::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKOffset::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKFeat::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKMesh::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXMesh::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKService::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKV3d::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKOpenGl::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKMeshVS::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKCDF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKLCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBinL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXmlL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBin::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXml::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKStdL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKStd::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTObj::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBinTObj::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXmlTObj::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKVCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDE::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSBase::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDESTEP::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEIGES::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDESTL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEVRML::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKRWMesh::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDECascade::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBinXCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXmlXCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEOBJ::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEGLTF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEPLY::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKExpress::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDraw::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTopTest::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKOpenGlTest::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKViewerTest::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAW::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXDEDRAW::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTObjDRAW::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKQADraw::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWDE::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWGLTF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWIGES::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWOBJ::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWPLY::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWSTEP::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWSTL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWVRML::@4088515cb4035b412499"
+		}
+	],
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "TKernel::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKMath::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKG2d::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKG3d::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKGeomBase::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBRep::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKGeomAlgo::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTopAlgo::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKPrim::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBO::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKShHealing::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBool::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKHLR::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKFillet::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKOffset::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKFeat::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKMesh::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXMesh::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKService::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKV3d::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKOpenGl::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKMeshVS::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKCDF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKLCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBinL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXmlL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBin::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXml::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKStdL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKStd::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTObj::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBinTObj::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXmlTObj::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKVCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDE::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSBase::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDESTEP::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEIGES::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDESTL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEVRML::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKRWMesh::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDECascade::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKBinXCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXmlXCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEOBJ::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEGLTF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDEPLY::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKExpress::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDraw::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTopTest::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKOpenGlTest::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKViewerTest::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAW::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKDCAF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXDEDRAW::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKTObjDRAW::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKQADraw::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWDE::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWGLTF::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWIGES::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWOBJ::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWPLY::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWSTEP::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWSTL::@4088515cb4035b412499"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TKXSDRAWVRML::@4088515cb4035b412499"
+		}
+	],
+	"name" : "xtrusign-engine",
+	"nameOnDisk" : "libxtrusign-engine.a",
+	"paths" : 
+	{
+		"build" : "engine",
+		"source" : "engine"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "engine/src/Engine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "engine/src/GeometryEngine.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

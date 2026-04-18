@@ -1,0 +1,67 @@
+{
+	"abstract" : true,
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"find_package"
+		],
+		"files" : 
+		[
+			"/opt/homebrew/lib/cmake/Qt6/Qt6Targets.cmake",
+			"/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake",
+			"apps/desktop/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"id" : "Qt6::GlobalConfig::@40b65400cb1ffa2ed0d1",
+	"imported" : true,
+	"local" : true,
+	"name" : "Qt6::GlobalConfig",
+	"paths" : 
+	{
+		"build" : "apps/desktop",
+		"source" : "apps/desktop"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

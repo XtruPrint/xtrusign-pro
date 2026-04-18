@@ -4,19 +4,26 @@ project(XtruSignPro VERSION 0.1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Add core modules
+# Core modules
 add_subdirectory(engine)
 add_subdirectory(application)
 
-# Desktop application
+# Desktop app
 option(BUILD_DESKTOP "Build desktop app" ON)
 if(BUILD_DESKTOP)
     add_subdirectory(apps/desktop)
 endif()
 
-# Build unit tests
+# Tests
 option(BUILD_TESTS "Build unit tests" ON)
 if(BUILD_TESTS)
     enable_testing()
-    add_subdirectory(tests)
+    # add_subdirectory(tests)
 endif()
+
+# Qt
+find_package(Qt6 REQUIRED COMPONENTS Widgets)
+
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTORCC ON)

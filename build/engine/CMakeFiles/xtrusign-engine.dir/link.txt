@@ -1,0 +1,2 @@
+/usr/bin/ar qc libxtrusign-engine.a "CMakeFiles/xtrusign-engine.dir/src/Engine.cpp.o" "CMakeFiles/xtrusign-engine.dir/src/GeometryEngine.cpp.o"
+/usr/bin/ranlib libxtrusign-engine.a
